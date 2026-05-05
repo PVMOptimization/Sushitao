@@ -6,7 +6,7 @@ const MENU_ITEMS = [
     desc: 'Shrimp tempura, avocado, cucumber topped with fresh tuna & spicy mayo',
     price: 'Market',
     tag: 'Specialty Roll',
-    img: '/public/dragonroll.png',
+    img: '/dragonroll.png',
   },
   {
     label: 'Sushi & Sashimi Boat',

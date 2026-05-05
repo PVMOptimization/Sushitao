@@ -41,7 +41,7 @@ const MENU_ITEMS = [
     desc: 'Steamed edamame tossed in garlic chili butter & sea salt',
     price: '$7',
     tag: 'Starter',
-    img: '/public/spicyed.png',
+    img: '/spicyed.png',
   },
   {
     label: 'Chicken Fried Rice',

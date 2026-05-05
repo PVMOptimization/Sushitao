@@ -1,0 +1,82 @@
+/* ─── Design Tokens ─── */
+:root {
+  --ink:        #141210;
+  --ink-light:  #2a2724;
+  --paper:      #f2ece3;
+  --paper-dark: #e6ded2;
+  --ember:      #d4541a;
+  --ember-hot:  #f06525;
+  --ash:        #8a8278;
+  --bone:       #ddd6cb;
+
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body:    'DM Sans', sans-serif;
+  --font-mono:    'DM Mono', monospace;
+
+  --nav-h: 72px;
+}
+
+/* ─── Reset ─── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { cursor: pointer; font-family: var(--font-body); }
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--paper); }
+::-webkit-scrollbar-thumb { background: var(--bone); border-radius: 3px; }
+
+/* ─── Global CTA button ─── */
+.btn-call {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--ember);
+  color: var(--paper);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  padding: 12px 24px;
+  border: none;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+.btn-call:hover {
+  background: var(--ember-hot);
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  padding: 11px 22px;
+  border: 1.5px solid var(--ink);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.btn-outline:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* ─── Utility ─── */
+.ember { color: var(--ember); }

@@ -141,7 +141,7 @@ const HOURS_DATA = [
 ]
 
 const GALLERY = [
-  { src:'https://images.unsplash.com/photo-1562802378-063ec186a863?auto=format&fit=crop&w=900&q=85', alt:'Specialty rolls', col:'1/3', row:'1/2' },
+  { src:'public/dragonroll.png', alt:'Specialty rolls', col:'1/3', row:'1/2' },
   { src:'https://images.unsplash.com/photo-1582450871972-ab5ca641643d?auto=format&fit=crop&w=600&q=85', alt:'Sashimi', col:'3/4', row:'1/3' },
   { src:'https://images.unsplash.com/photo-1534482421-64566f976cfa?auto=format&fit=crop&w=700&q=85', alt:'Sushi bar', col:'1/2', row:'2/3' },
   { src:'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=85', alt:'Plating', col:'2/3', row:'2/3' },
